@@ -6,8 +6,8 @@ Config = {
         PrioritizeFriendship = true, -- Farm highest friendship pets first
         FarmEggs = true,  -- Auto-farm eggs until they hatch
         EggType = "moon_2025_egg", -- Egg to farm: cracked, royal, etc.
-        SelectFarmEgg = "any",  -- "any" = all eggs, or specify one
-        BuyEggs = false,  -- Auto-buy eggs if needed
+        SelectFarmEgg = "moon_2025_egg",  -- "any" = all eggs, or specify one
+        BuyEggs = true,  -- Auto-buy eggs if needed
         AutoAgePotionEnabled = true, -- Use age potions for faster growth
         AutoAgePotionPets = { "winter_2024_ice_cube", "winter_2024_berry_cool_cube" }, -- Pets that get age potions
         ExcludedTasks = {  
@@ -19,7 +19,7 @@ Config = {
             }
         },
         RarityFarming = {
-            Enabled = false,  -- Farm by rarity instead of age
+            Enabled = true,  -- Farm by rarity instead of age
             Order = { "ultra_rare", "common", "legendary", "rare", "uncommon" }
         }
     },
