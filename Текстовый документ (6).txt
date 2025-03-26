@@ -2,8 +2,8 @@ Config = {
     PetFarm = {
         Enabled = true,   -- Enable/disable pet farming
         AutoNeon = true,  -- Auto create neon pets (4 full-grown)
-        FarmUntilFullyGrown = true, -- Farm youngest first (true) or oldest (false)
-        PrioritizeFriendship = false, -- Farm highest friendship pets first
+        FarmUntilFullyGrown = false, -- Farm youngest first (true) or oldest (false)
+        PrioritizeFriendship = true, -- Farm highest friendship pets first
         FarmEggs = true,  -- Auto-farm eggs until they hatch
         EggType = "moon_2025_egg", -- Egg to farm: cracked, royal, etc.
         SelectFarmEgg = "moon_2025_egg",  -- "any" = all eggs, or specify one
